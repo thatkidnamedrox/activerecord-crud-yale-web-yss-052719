@@ -66,7 +66,7 @@ describe 'Movie' do
 
       it 'can be created with a hash of attributes' do
         movie = can_be_created_with_a_hash_of_attributes
-        puts movie
+        puts movie, [24093482038402384203423842849024]
         expect(Movie.find_by(attributes)).to eq(false)
       end
 
