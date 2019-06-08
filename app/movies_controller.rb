@@ -22,6 +22,10 @@ def can_be_created_with_a_hash_of_attributes
   }
   movie = Movie.new
   movie.title = attributes[:title]
+  movie.release_date = attributes[:release_date]
+  movie.director = attributes[:director]
+  movie.lead = attritubes[:lead]
+  movie.in_theaters = attributes[:in_theaters]
 
 end
 
