@@ -65,7 +65,7 @@ describe 'Movie' do
       end
 
       it 'can be created with a hash of attributes' do
-        movie = can_be_created_with_a_hash_of_attributesW
+        movie = can_be_created_with_a_hash_of_attributes
         expect(Movie.find_by(attributes)).to eq(movie)
       end
 
